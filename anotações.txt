@@ -1,0 +1,9 @@
+# liberar porta do node atraves do firewall gke
+
+gcloud compute firewall-rules create nome-do-pod --allow tcp🇵🇹
+
+# visualizar ips dos nodes
+
+get nodes -o wide
+
+kubectl exec --stdin --tty pod-name -- comand-a-ser-executado
