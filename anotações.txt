@@ -1,6 +1,6 @@
 # liberar porta do node atraves do firewall gke
 
-gcloud compute firewall-rules create nome-do-pod --allow=tcp:30025
+gcloud compute firewall-rules create nome-do-pod --allow=tcp:port
 
 # visualizar ips dos nodes
 
